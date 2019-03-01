@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint naviPop.podspec' to ensure this is a
+#  Be sure to run `pod spec lint NavigationPopCount.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,16 +15,18 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "naviPop"
+  s.name         = "NavigationPopCount"
   s.version      = "0.0.1"
-  s.summary      = "implement almost all the features you can imagine, and it is easy to use."
+  s.summary      = "Navigation catagery"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.description  = <<-DESC
+                    To solve the pain point of iOS, the upward return interface can only return one at a time, which can be given a return number.
+                   DESC
 
   s.homepage     = "https://github.com/swf675139060/popcount"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -38,6 +40,7 @@ Pod::Spec.new do |s|
   #
 
   s.license      = "MIT"
+  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -50,7 +53,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "申文峰" => "675139060@qq.com" }
+  s.author             = { "Wen Feng" => "675139060@qq.com" }
+  # Or just: s.author    = "Wen Feng"
+  # s.authors            = { "Wen Feng" => "675139060@qq.com" }
+  # s.social_media_url   = "http://twitter.com/Wen Feng"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -85,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "naviPop/*.{h,m}"
+  s.source_files  = "NavigationPopCount/*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
