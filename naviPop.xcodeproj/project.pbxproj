@@ -99,9 +99,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6978E1B22228FFDC0048EB67 /* NavigationPopCount */ = {
+			isa = PBXGroup;
+			children = (
+				69AA4534220183D8003A9C84 /* UINavigationController+PopCount.h */,
+				69AA4533220183D8003A9C84 /* UINavigationController+PopCount.m */,
+			);
+			path = NavigationPopCount;
+			sourceTree = "<group>";
+		};
 		69AA44F5220183B7003A9C84 = {
 			isa = PBXGroup;
 			children = (
+				6978E1B22228FFDC0048EB67 /* NavigationPopCount */,
 				69AA4500220183B7003A9C84 /* naviPop */,
 				69AA4519220183B8003A9C84 /* naviPopTests */,
 				69AA4524220183B8003A9C84 /* naviPopUITests */,
@@ -122,8 +132,6 @@
 		69AA4500220183B7003A9C84 /* naviPop */ = {
 			isa = PBXGroup;
 			children = (
-				69AA4534220183D8003A9C84 /* UINavigationController+PopCount.h */,
-				69AA4533220183D8003A9C84 /* UINavigationController+PopCount.m */,
 				69AA4501220183B7003A9C84 /* AppDelegate.h */,
 				69AA4502220183B7003A9C84 /* AppDelegate.m */,
 				69AA4504220183B7003A9C84 /* ViewController.h */,
